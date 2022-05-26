@@ -1,0 +1,17 @@
+import Layout from '../../components/layout'
+
+export const testMeta = {
+  title: 'Test',
+  url:
+    'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4'
+}
+
+# Hello World
+
+Let me show you this video!
+
+<video autoplay controls>
+  <source src='http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4' />
+</video>
+
+export default ({ children }) => <Layout meta={meta}>{children}</Layout>
